@@ -1,5 +1,6 @@
 <?php
+
 function hello()
 {
-echo "hi";
+    echo "hi";
 }

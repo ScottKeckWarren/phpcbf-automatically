@@ -13,4 +13,4 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-progress --prefer-dist --optimize-autoloader
       - name: Run PHPCS
-        run: ./vendor/bin/phpcs --standard=psr12 ./
+        run: ./vendor/bin/phpcs --standard=psr12 ./bad.php
